@@ -115,7 +115,7 @@ const TypesCard = ({ setOpen, selectedElement }) => {
                                             alignItems: "center",
                                             padding: 8,
                                             borderRadius: 20,
-                                            width: 130,
+                                            width: "100%",
                                         }}
                                     >
                                         <div
