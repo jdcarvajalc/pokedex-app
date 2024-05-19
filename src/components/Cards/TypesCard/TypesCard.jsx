@@ -112,18 +112,30 @@ const TypesCard = ({ setOpen, selectedElement }) => {
                                             margin: "5px",
                                             display: "flex",
                                             justifyContent: "center",
-                                            padding: 10,
+                                            alignItems: "center",
+                                            padding: 8,
                                             borderRadius: 20,
-                                            width: 80,
+                                            width: 130,
                                         }}
                                     >
-                                        <img
-                                            src={getIconByType(type)}
+                                        <div
                                             style={{
-                                                width: 24,
-                                                height: 24,
+                                                backgroundColor: "white",
+                                                margin: "0 10px",
+                                                padding: "5px",
+                                                display: "flex",
+                                                borderRadius: "50%",
                                             }}
-                                        />
+                                        >
+                                            <img
+                                                src={getIconByType(type)}
+                                                style={{
+                                                    width: 24,
+                                                    height: 24,
+                                                    margin: 0,
+                                                }}
+                                            />
+                                        </div>
                                         {type}
                                     </div>
                                 ))}
