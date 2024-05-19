@@ -1,7 +1,13 @@
 import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
 import styles from "./StatsCard.module.css";
+import ScienceIcon from "@mui/icons-material/Science";
 import { modifyNumberByID } from "../../../utils/modifyNumberByID";
+import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
+import ShieldIcon from "@mui/icons-material/Shield";
+import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
+import HeightIcon from "@mui/icons-material/Height";
+import ScaleIcon from "@mui/icons-material/Scale";
 
 const StatsCard = ({ setOpen, selectedElement }) => {
     const [stats, setStats] = useState(null);
@@ -78,27 +84,45 @@ const StatsCard = ({ setOpen, selectedElement }) => {
                     </div>
                     <div className={styles.pokemonStats}>
                         <div className="statContainer">
-                            <label>Altura</label>
+                            <label>
+                                <HeightIcon />
+                                Altura
+                            </label>
                             <p> {stats.pok_height} dm</p>
                         </div>
                         <div className="statContainer">
-                            <label>Peso</label>
+                            <label>
+                                <ScaleIcon />
+                                Peso
+                            </label>
                             <p> {stats.pok_weight} hg</p>
                         </div>
                         <div className="statContainer">
-                            <label>Puntos de experiencia base</label>
+                            <label>
+                                <ScienceIcon />
+                                Puntos de experiencia base
+                            </label>
                             <p> {stats.pok_base_experience}</p>
                         </div>
                         <div className="statContainer">
-                            <label>Puntos de vida</label>
+                            <label>
+                                <LocalHospitalIcon />
+                                Puntos de vida
+                            </label>
                             <p> {stats.b_hp}</p>
                         </div>
                         <div className="statContainer">
-                            <label>Puntos de ataque</label>
+                            <label>
+                                <FitnessCenterIcon />
+                                Puntos de ataque
+                            </label>
                             <p> {stats.b_atk}</p>
                         </div>
                         <div className="statContainer">
-                            <label>Puntos de defensa</label>
+                            <label>
+                                <ShieldIcon />
+                                Puntos de defensa
+                            </label>
                             <p> {stats.b_def}</p>
                         </div>
                     </div>

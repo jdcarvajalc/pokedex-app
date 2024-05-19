@@ -35,6 +35,8 @@
 .pokemonStats label {
     color: #6b6b6b;
     text-transform: uppercase;
+    display: flex;
+    align-items: end;
 }
 
 .pokemonStats p {
