@@ -3,6 +3,7 @@ import Swal from "sweetalert2";
 import styles from "./TypesCard.module.css";
 import { getColorByType } from "../../../utils/getColorByType";
 import { modifyNumberByID } from "../../../utils/modifyNumberByID";
+import { getIconByType } from "../../../utils/getIconByType";
 
 const TypesCard = ({ setOpen, selectedElement }) => {
     const [types, setTypes] = useState(null);
@@ -116,6 +117,13 @@ const TypesCard = ({ setOpen, selectedElement }) => {
                                             width: 80,
                                         }}
                                     >
+                                        <img
+                                            src={getIconByType(type)}
+                                            style={{
+                                                width: 24,
+                                                height: 24,
+                                            }}
+                                        />
                                         {type}
                                     </div>
                                 ))}

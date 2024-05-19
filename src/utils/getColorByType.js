@@ -1,42 +1,42 @@
 // Función que asigna un color dependiendo del valor de 'type_name'
 export const getColorByType = (typeName) => {
     switch (typeName) {
-        case "normal":
-            return "#A8A77A"; // Color para 'normal'
+        case "water":
+            return "#5090D6"; // Color para 'water'
+        case "dragon":
+            return "#0B6DC3"; // Color para 'dragon'
+        case "electric":
+            return "#F4D23C"; // Color para 'electric'
+        case "fairy":
+            return "#EC8FE6"; // Color para 'fairy'
+        case "ghost":
+            return "#5269AD"; // Color para 'ghost'
+        case "fire":
+            return "#FF9D55"; // Color para 'fire'
+        case "ice":
+            return "#73CEC0"; // Color para 'ice'
+        case "grass":
+            return "#63BC5A"; // Color para 'grass'
+        case "bug":
+            return "#91C12F"; // Color para 'bug'
         case "fighting":
             return "#C22E28"; // Color para 'fighting'
-        case "flying":
-            return "#A98FF3"; // Color para 'flying'
-        case "poison":
-            return "#A33EA1"; // Color para 'poison'
-        case "ground":
-            return "#E2BF65"; // Color para 'ground'
-        case "rock":
-            return "#B6A136"; // Color para 'rock'
-        case "bug":
-            return "#A6B91A"; // Color para 'bug'
-        case "ghost":
-            return "#735797"; // Color para 'ghost'
-        case "steel":
-            return "#B7B7CE"; // Color para 'steel'
-        case "fire":
-            return "#EE8130"; // Color para 'fire'
-        case "water":
-            return "#6390F0"; // Color para 'water'
-        case "grass":
-            return "#7AC74C"; // Color para 'grass'
-        case "electric":
-            return "#F7D02C"; // Color para 'electric'
-        case "psychic":
-            return "#F95587"; // Color para 'psychic'
-        case "ice":
-            return "#96D9D6"; // Color para 'ice'
-        case "dragon":
-            return "#6F35FC"; // Color para 'dragon'
+        case "normal":
+            return "#919AA2"; // Color para 'normal'
         case "dark":
-            return "#705746"; // Color para 'dark'
-        case "fairy":
-            return "#D685AD"; // Color para 'fairy'
+            return "#5A5465"; // Color para 'dark'
+        case "steel":
+            return "#5A8EA2"; // Color para 'steel'
+        case "rock":
+            return "#C5B78C"; // Color para 'rock'
+        case "psychic":
+            return "#FA7179"; // Color para 'psychic'
+        case "ground":
+            return "#D97845"; // Color para 'ground'
+        case "poison":
+            return "#B567CE"; // Color para 'poison'
+        case "flying":
+            return "#89AAE3"; // Color para 'flying'
         default:
             return "#A8A77A"; // Color por defecto
     }
