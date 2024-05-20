@@ -13,6 +13,8 @@
 ## © Repositorio de la base de datos utilizada
 [Pokemon-Database](https://github.com/brianr852/Pokemon-Database)
 
+## © Diseño público en Figma utilizado
+[Pokédex design](https://www.figma.com/design/DikHu6S4TU3tkPE6k753Uz/Pok%C3%A9dex-%2F-Pok%C3%A9mon-App-(Community)?node-id=1203-27365)
 
 ## 📖 Instrucciones de uso
 Para replicar este proyecto, debe realizar los siguientes pasos:
